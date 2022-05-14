@@ -14,10 +14,12 @@ nav a{
   font-weight: bold;
   font-size: 30px;
 }
+
 #hero-msg {
   text-align: center;
   color: #577590;
   font-weight: bolder;
+  font-size: 30px;
   font-family: var(--paragraph-font); 
 }
 h1 {
@@ -34,7 +36,7 @@ h2 {
 }
 .button-box {
   text-align: center;
-  color: darkblue;
+  color: blue;
   text-decoration: none;
   font-weight: bolder;
   font-family: var(--paragraph-font); 
@@ -54,13 +56,12 @@ header {
   color: red;
 }
 nav a:hover {
-  background-color: green;
+  background-color: #43aa8b;
   color: black;
   }
 .book {
   background-color: #577590;
   color: darkblue;
-  font-weight: bolder;
   font-size: 30px; 
   }
 .join {
@@ -96,7 +97,8 @@ footer {
   color: white;
 }
 .icon {
-  width: 80px;
+  width: 40px;
+  text-decoration: none;
 }
 a {
   color: white;
