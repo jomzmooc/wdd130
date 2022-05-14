@@ -1,0 +1,23 @@
+body {
+  background-color: pink;
+  text-align: center;
+  }
+h1 {
+  text-align: center; 
+  font-size: 8em;
+  color: black;
+  font-family: calibri;
+  letter-spacing: .01em;
+  padding: 0%;
+}
+h2 {
+  text-align: center;
+  font-size: 2em;
+  color: white
+  }
+  .prophet {
+    color: white;
+    font-size: 2em;
+    font-family: calibri;
+    font-weight: bold;
+  }
