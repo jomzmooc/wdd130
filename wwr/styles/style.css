@@ -126,7 +126,7 @@ header {
   display: block;
   border-radius: 10px;
   box-sizing: border-box;
-  border: 5px solid #577590;
+  border: 6px solid #577590;
 }
 .msg p {
   background-color: #577590;
