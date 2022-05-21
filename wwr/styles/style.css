@@ -44,7 +44,7 @@ a:hover {
 #hero-img {
   width: 100%;
   box-sizing: border-box;
-  border: solid #577590;
+  border: 5px solid #577590;
 }
 h1 {
   text-align: center;
@@ -84,7 +84,7 @@ main section img {
   color: red;
 }
 .card-img {
-  border: 10px solid #577590;
+  border: 5px solid #577590;
 }
 body {
 background-color: white;
@@ -125,6 +125,8 @@ header {
   margin-right: auto;
   display: block;
   border-radius: 10px;
+  box-sizing: border-box;
+  border: 5px solid #577590;
 }
 .msg p {
   background-color: #577590;
