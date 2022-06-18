@@ -255,8 +255,13 @@ h5 {
   margin-top: 5px;
   margin-bottom: 0px;
   color: #577590;
+  width: 10%;
   }
-  
+  h6 {
+    margin-top: -5%;
+    box-sizing: border-box;
+      }
+
 .explore-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 2fr;
@@ -289,18 +294,31 @@ h5 {
   font-size: 20px;
 }
 #main-fork, #desolation, #canyon {
-  text-align: just;
+  text-align: center;
 }
 .map, .features, .gallery {
-  color: #43aa8b;
+  color: white;
   text-decoration: none;
   font-weight: bolder;
-  align-content: justify;
+  align-content: center;
   text-align: justify;
-  background-color: #57759033;
+  background-color: rgba(128, 128, 128, 0.767);
   padding: 10px;
   border-radius: 10%;
   }
+  .map:hover {
+    opacity: .6;
+    background-color: black;
+        }
+  .features:hover {
+    opacity: .6;
+    background-color: black
+  }
+  .gallery:hover {
+    opacity: .6;
+    background-color: black
+  }
+    
 
     .salmon-img, .desolation-img, .canyon-img { 
       border: 5px solid #577590;
@@ -309,20 +327,7 @@ h5 {
       transition: transform .5s;
       border-radius: 2%;
     }
-      
-    .salmon-img:hover {
-      opacity: .6;
-      transform: scale(1.1);
-    }
-    .desolation-img:hover {
-      opacity: .6;
-      transform: scale(1.1);
-    }
-    .canyon-img:hover {
-      opacity: .6;
-      transform: scale(1.1);
-    }
-
+ 
 .desolation-gray1 {
   grid-column: 1/2;
   grid-row: 5/6;
