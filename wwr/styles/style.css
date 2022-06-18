@@ -295,6 +295,7 @@ h5 {
 .canyon, .main-fork, .desolation {
 font-family: 'Times New Roman', Times, serif;
 color: #577590;
+font-size: 40px;
 }
 
 #main-fork, #desolation, #canyon {
