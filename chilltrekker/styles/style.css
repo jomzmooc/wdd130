@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Kdam+Thmor+Pro&display=swap');
+:root {
+--heading-font: "Kdam Thmor Pro";
+--paragraph-font: Arvo, Helvetica, sans-serif;
+}
+#content {
+  max-width: 1600px;
+  margin: 0 auto;
+  font-family: Helvetica;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #1c1d35;
+  margin: 10px;
+  }
+nav a{
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+  padding: 25px;
+  margin: 10px auto;
+  font-family: var(--heading-font);
+    }
+nav a:hover {
+  background-color: #7cc6fe;
+  color: black;    
+  }
+#logo_link {
+  padding: 5px;
+  justify-self: center;
+  align-self: center;
+  }
+header {
+  display: grid;
+  grid-template-columns: 150px auto;
+     }
+#hike-img {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid;
+  border-radius: 1%;
+}
+.safety.img {
+width: 100%;
+box-sizing: border-box;
+border: 1px solid;
+border-radius: 1%;
+}
+
+
+#features_safety {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  }
+.features {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  margin: 50px;
+}
+.safety {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  margin: 50px;
+}
+.features-msg, .safety-msg {
+  text-align: center;
+}
+#mountains {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+}
+
+.batolusong {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  margin: 5px;
+}
+.purgatory {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  margin: 5px;
+}
+.ulap {
+  grid-column: 3/4;
+  grid-row: 1/2;
+  margin: 5px;
+}
+.mapalad {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  margin: 5px;
+}
+.circle {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  margin: 5px;
+  }
+.mataripis {
+  grid-column: 3/4;
+  grid-row: 2/3;
+  margin: 5px;
+}
+h2 {
+  text-align: center;
+  font-family: var(--paragraph-font);
+}
+.mountain-title {
+  font-family: var(--heading-font);
+  font-size: 2em;
+  margin-top: 10px; 
+}
+h1 {
+  font-family: var(--heading-font);
+  font-size: 2em;
+  margin-top: 10px; 
+}
+footer {
+  background-color: #43aa8b;
+  color:#1c1d35;
+  padding: 25px 50px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: Helvetica;
