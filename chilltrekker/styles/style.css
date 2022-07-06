@@ -57,12 +57,23 @@ border-radius: 1%;
 .features {
   grid-column: 1/2;
   grid-row: 1/2;
-  margin: 50px;
+  margin: 20px;
 }
 .safety {
   grid-column: 2/3;
   grid-row: 1/2;
-  margin: 50px;
+  margin: 20px;
+}
+
+.card-img { 
+  width: 100%;
+  border: 5px solid #577590;
+  transition: transform .5s;
+  box-shadow: 5px 5px 10px  #577590;
+}
+.card-img:hover {
+  opacity: .6;
+  transform: scale(1.1);
 }
 .features-msg, .safety-msg {
   text-align: center;
