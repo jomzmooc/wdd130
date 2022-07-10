@@ -242,9 +242,6 @@ footer h3:hover {
 #upcoming {
   color: darkgreen;
 }
-#past {
-color: red;
-}
 
 h4 {
   font-size: 40px;
@@ -321,9 +318,16 @@ h4 {
     margin-left: 10%;
   }
 
+  #past {
+    grid-column: 1/2;
+    grid-row: 3/4;
+  color: red;
+  }
+  
+
   #msg3 {
     grid-column: 2/4;
-    grid-row: 1/2;
+    grid-row: 4/5;
     font-family: var(--paragraph-font);
     text-decoration: none;
     text-align: left;
@@ -333,7 +337,7 @@ h4 {
 
   #msg4 {
     grid-column: 2/4;
-    grid-row: 2/3;
+    grid-row: 5/6;
     font-family: var(--paragraph-font);
     text-decoration: none;
     text-align: left;
@@ -350,27 +354,12 @@ h4 {
   }
   .event3 {
     grid-column: 1/2;
-    grid-row: 1/2;
+    grid-row: 4/5;
   }
-  .msg3 {
-    grid-column: 2/3;
-    grid-row: 1/2;
-    font-family: var(--paragraph-font);
-    text-decoration: none;
-    text-align: left;
-    font-size: 20px;
-  }
+  
 .event4 {
       grid-column: 1/2;
-      grid-row: 2/3
+      grid-row: 5/6
     }
-.msg4 {
-      grid-column: 2/3;
-      grid-row: 2/3;
-      font-family: var(--paragraph-font);
-      text-decoration: none;
-      text-align: left;
-      font-size: 20px;
-  
 
   
