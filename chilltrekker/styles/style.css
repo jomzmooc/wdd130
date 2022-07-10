@@ -239,6 +239,13 @@ footer h3:hover {
   margin: 0 auto;
   font-family: var(--paragraph-font);
 }
+#upcoming {
+  color: darkgreen;
+}
+#past {
+color: red;
+}
+
 h4 {
   font-size: 40px;
   font-family: var(--heading-font);
@@ -248,7 +255,7 @@ h4 {
 }
  h5 {
   font-size: 40px;
-  margin-top: -10px;
+  margin-top: 10px;
     }
   
  #event-grid {
@@ -261,27 +268,79 @@ h4 {
   grid-column: 1/2;
   grid-row: 1/2;
 }
+.button-box {
+  text-align: left;
+}
 
-.msg1 {
-    grid-column: 2/3;
+.date {
+  font-weight: bolder;
+  text-decoration: underline;
+  color: #1c1d35;
+  font-size: 2em;
+  font-family: var(--paragraph-font);
+  
+}
+#msg1 {
+    grid-column: 2/4;
     grid-row: 1/2;
     font-family: var(--paragraph-font);
     text-decoration: none;
     text-align: left;
     font-size: 20px;
+    margin-left: 10%;
   }
+  .button-box1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    text-align: left;
+    color: blue;
+    text-decoration: none;
+    font-weight: bolder;
+    margin-left: 20%;
+    }
+
+    .button-box2 {
+      text-align: left;
+      color: blue;
+      text-decoration: none;
+      font-weight: bolder;
+      margin-left: 20%;
+      }
+
 .event2 {
     grid-column: 1/2;
     grid-row: 2/3;
   }
-  .msg2 {
-    grid-column: 2/3;
+  #msg2 {
+    grid-column: 2/4;
     grid-row: 2/3;
     font-family: var(--paragraph-font);
     text-decoration: none;
     text-align: left;
     font-size: 20px;
+    margin-left: 10%;
   }
+
+  #msg3 {
+    grid-column: 2/4;
+    grid-row: 1/2;
+    font-family: var(--paragraph-font);
+    text-decoration: none;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 10%;
+  }
+
+  #msg4 {
+    grid-column: 2/4;
+    grid-row: 2/3;
+    font-family: var(--paragraph-font);
+    text-decoration: none;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 10%;
+  }
+
 
   #past-grid {
     display: grid;
