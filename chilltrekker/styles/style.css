@@ -240,7 +240,12 @@ footer h3:hover {
   font-family: var(--paragraph-font);
 }
 #upcoming {
-  color: darkgreen;
+  color: #1c1d35;
+  text-decoration: underline;
+}
+#upcoming:hover {
+  background-color: #1c1d35;
+  color: white;
 }
 
 h4 {
@@ -321,7 +326,7 @@ h4 {
   #past {
     grid-column: 1/2;
     grid-row: 3/4;
-  color: red;
+  color: black;
   }
   
 
