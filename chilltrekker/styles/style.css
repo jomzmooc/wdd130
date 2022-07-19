@@ -92,6 +92,16 @@
   to {opacity: 1}
 }
 
+#social {
+  max-width: 1600px;
+  display: flex;
+    }
+#social a {
+  text-decoration: none;
+  padding: 1px;
+  margin-right: 1px;
+        }
+
 #content {
   max-width: 1600px;
   margin: 0 auto;
